@@ -21,7 +21,7 @@ a {
   transition: color .2s ease-out;
 }
 body {
-  background: #00B233;
+  background: #00B200;
 }
 
 h1 {
@@ -123,6 +123,10 @@ input[type=checkbox] {
 .items input[type=checkbox]:checked + label {
   left: 43px;
 }
+#builtsource {
+width:1200px;
+margin: 10% auto;
+}
 textarea#generatedSource{
 color:#666;
 font-size:14px;
@@ -130,7 +134,7 @@ font-size:14px;
 margin:20px auto;
 padding:10px;
 height:300px;
-width:80%;
+width:100%;
 border:#999 1px solid;
 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 transition: all 0.25s ease-in-out;
@@ -181,4 +185,14 @@ transition: all 0.3s;
 .generate:hover,
 .generate:active {
   color: #0e83cd;
+}
+.generate:after {
+width: 100%;
+height: 0;
+top: 0;
+left: 0;
+background: #00FFB2;
+}
+.generate:hover:after, .generate:active:after {
+height: 100%;
 }
