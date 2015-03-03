@@ -26,7 +26,7 @@ html, body {
   color: #34495e
 }
 .awesome-container {
-  background: #fff;
+  background: #ECF2F5;
   margin: 50px auto;
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
   -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
@@ -435,8 +435,8 @@ html, body {
   position: absolute;
   top: 4px;
   left: 3px;
-  width: 6px;
-  height: 3px;
+  width: 9px;
+  height: 4px;
   border: solid #1abc9c;
   border-width: 0 0 3px 3px;
   -webkit-transform: rotate(-45deg);
@@ -604,12 +604,12 @@ html, body {
 }
 .awesome-forms .button {
   border: 0;
-  height: 42px;
+  height: 48px;
   color: #243140;
   line-height: 1;
-  font-size: 15px;
+  font-size: 18px;
   cursor: pointer;
-  padding: 0 18px;
+  padding: 0 20px;
   text-align: center;
   vertical-align: top;
   background: #bdc3c7;
